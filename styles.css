@@ -1,0 +1,54 @@
+body {
+  text-align: center;
+  background-color: #fff;
+}
+
+#level-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 3rem;
+  margin:  5%;
+  letter-spacing: 0.8rem;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: #E43636;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: #E43636;
+}
+
+.green {
+  background-color: #089327;
+}
+
+.blue {
+  background-color: #004EAC;
+}
+
+.yellow {
+  background-color: #F4F326;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  /* background-color: grey; */
+  opacity: 60%;
+}
